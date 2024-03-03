@@ -1,0 +1,179 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+/* .card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  font-family: 'Comic Neue';
+}
+
+nav {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+nav ul {
+  height: 6vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 18px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: grey;
+  font-weight: bolder;
+}
+
+.logo {
+  display: flex;
+  padding: 0 25px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  height: 22px;
+  width: 381px;
+  border-radius: 3px;
+  margin-right: 8px
+}
+
+.btn {
+  margin:8px;
+  padding: 4px 8px;
+  color: white;
+  background: black;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Comic Neue';
+  float: left;
+}
+
+.control-btn{
+  /* display:; */
+  float:right;
+}
+
+.signup-btn {
+  margin:8px;
+  padding: 4px 8px;
+  color: white;
+  background: blue;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Comic Neue';
+}
+
+.login-btn {
+  margin:8px;
+  padding: 4px 8px;
+  color: white;
+  background: blue;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Comic Neue';
+  float: left;
+}
+
+.btn:hover {
+  font-weight: bolder;
+}
+
+.container {
+  min-height: 55vh;
+
+  font-family: 'Comic Neue';
+  /* min-height:82vh */
+}
+
+.slider-box {
+  height: 35vh
+}
+
+.slider {
+  height: 30vh
+}
+
+.card-row {
+  display: flex;
+  border: 1px solid black;
+  /* box-shadow:19px */
+}
+
+.card {
+  border: 1px solid black;
+  margin: 3px;
+  height: 29vh;
+  width: 20vw;
+}
+
+
+footer {
+  height: 12vh;
+  background-color: black;
+  color: white;
+  font-family: 'Comic Neue';
+}
